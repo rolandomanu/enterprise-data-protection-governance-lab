@@ -18,6 +18,23 @@ June 2026
 
 ---
 
+### Investigate Insider Risk Alerts and Related Activity
+
+Skills Covered:
+
+- Insider Risk Management
+- User Activity Investigations
+- Alert Analysis
+- Risk Indicators
+- Microsoft Purview Concepts
+- Governance and Compliance
+
+Date Completed:
+
+June 2026
+
+---
+
 ## In Progress
 
 - SC-900 Learning Path
