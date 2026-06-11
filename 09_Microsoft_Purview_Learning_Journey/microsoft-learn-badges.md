@@ -34,7 +34,20 @@ Date Completed:
 June 2026
 
 ---
+### Implement and Manage Microsoft Purview Insider Risk Management
 
+Skills Covered:
+
+- Insider Risk Management
+- Risk Indicators
+- Case Management
+- User Activity Monitoring
+- Adaptive Protection
+- Governance and Compliance
+
+Date Completed:
+
+June 2026
 ## In Progress
 
 - SC-900 Learning Path
