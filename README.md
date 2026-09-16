@@ -1,108 +1,54 @@
-# Enterprise Data Protection & Governance Lab
+# 🛡️ Enterprise Data Protection & Governance Lab
 
-## Overview
+![Microsoft Purview](https://img.shields.shields.io/badge/Microsoft_Purview-DLP_&_Information_Protection-blue)
+![Forcepoint DLP](https://img.shields.shields.io/badge/Forcepoint-Endpoint_DLP-red)
+![Compliance](https://img.shields.shields.io/badge/Compliance-ISO_27001_%7C_NIST_CSF-green)
 
-Enterprise-style cybersecurity governance project focused on Data Protection, Data Loss Prevention (DLP), Insider Risk Management, Risk Management, and Compliance.
+## Executive Summary
 
-This repository simulates the design and implementation of an enterprise data protection program aligned with industry-recognized frameworks and Microsoft Security concepts.
+This hands-on laboratory environment simulates an enterprise-grade Data Loss Prevention (DLP) and Data Governance program. It demonstrates how to integrate **Microsoft Purview**, **Forcepoint DLP**, and **Microsoft Entra ID** to enforce data classification, insider threat mitigation, control assurance, and continuous compliance monitoring across hybrid environments.
 
-## Project Objectives
-
-- Establish a Data Classification Program
-- Develop Data Loss Prevention (DLP) policies
-- Simulate Insider Risk Management scenarios
-- Create Risk Registers and Governance Dashboards
-- Support Audit Readiness and Compliance Activities
-- Map controls to ISO/IEC 27001 and NIST Cybersecurity Framework (CSF)
-
-## Areas Covered
-
-### Data Protection
-
-- Data Classification
-- Data Handling Standards
-- Information Protection
-
-### Data Loss Prevention (DLP)
-
-- SSN Detection Rules
-- Credit Card Detection Rules
-- Policy Severity Matrix
-- Incident Response Concepts
-
-### Insider Risk Management
-
-- USB Data Exfiltration
-- Personal Cloud Uploads
-- Mass Download Before Resignation
-- Email Forwarding Risks
-
-### Governance & Risk
-
-- Risk Assessment Methodology
-- Enterprise Risk Register
-- Security Control Mapping
-
-### Compliance
-
-- ISO 27001 Mapping
-- NIST CSF Mapping
-- Audit Evidence
-- Remediation Tracking
-
-### Executive Reporting
-
-- Governance Metrics
-- Risk Trend Analysis
-- Quarterly Security Reporting
+The architecture is strictly aligned with **ISO/IEC 27001 (A.8.12 Data Leakage Prevention)** and **NIST CSF 2.0 (PR.DS Data Security)**.
 
 ---
 
-## Repository Architecture
+## 📂 Repository Structure
 
-enterprise-data-protection-governance-lab/
-
-├── 01_Data_Classification
-
-├── 02_DLP_Policies
-
-├── 03_Insider_Risk_Scenarios
-
-├── 04_Risk_Register
-
-├── 05_Governance_Dashboard
-
-├── 06_Compliance_Mapping
-
-├── 07_Audit_Evidence
-
-└── 08_Executive_Reports
+* **`01_Data_Classification`**: Sensitivity labels, SIT definitions & auto-labeling rules
+* **`02_DLP_Policies`**: Endpoint, cloud & exchange DLP policy configurations
+* **`03_Insider_Risk_Scenarios`**: Exfiltration vector detection & user risk triggers
+* **`04_Risk_Register`**: Risk scoring, impact analysis & mitigation controls
+* **`05_Governance_Dashboard`**: Incident tracking, KPI reporting & audit logs
+* **`06_Compliance_Mapping`**: Control mapping against ISO 27001 & NIST CSF
+* **`07_Audit_Evidence`**: Remediation tracking, log collection & control assurance
+* **`08_Executive_Reports`**: Risk trend analysis & executive security summaries
+* **`09_Microsoft_Purview_Learning_Journey`**: Badges, cert labs & hands-on Purview skills tracking
 
 ---
 
-## Framework Alignment
+## 🏗️ Core Governance & Technical Capabilities
 
-- ISO/IEC 27001
-- NIST Cybersecurity Framework (CSF)
-- Data Protection Best Practices
-- Information Security Governance Principles
-- Microsoft Security Concepts
+### 1. Data Classification & Information Protection (`01_Data_Classification`)
+* Automated sensitivity labeling (`Confidential`, `Restricted - PII/PCI`, `Public`).
+* Custom Sensitive Information Types (SITs) using regular expressions (Regex) and keyword dictionaries.
+
+### 2. DLP Policy Enforcement (`02_DLP_Policies`)
+* Multi-channel DLP rules preventing unauthorized USB transfers, personal web uploads, and external email forwarding.
+* Integration between Microsoft Purview DLP and Forcepoint Endpoint DLP.
+
+### 3. Insider Threat Mitigation (`03_Insider_Risk_Scenarios`)
+* Detection logic for anomalous data download activity and exfiltration attempts during employee offboarding windows.
+
+### 4. Compliance & Control Assurance (`04_Risk_Register`, `06_Compliance_Mapping` & `07_Audit_Evidence`)
+* Full traceability matrix connecting technical DLP rules directly to ISO 27001 Annex A controls and NIST CSF subcategories.
+* Remediation tracking logs and audit evidence documentation.
+
+### 5. Executive Visibility & Skills Tracking (`05_Governance_Dashboard`, `08_Executive_Reports` & `09_Purview_Journey`)
+* High-level reporting metrics, risk trend analyses, and documented Microsoft Purview technical competencies.
 
 ---
 
-## Current Learning Journey
+## 🛠️ Tech Stack & Standards
 
-Microsoft Learn Badges:
-
-- Investigate and Respond to Microsoft Purview Data Loss Prevention Alerts
-
-Planned Certifications:
-
-- SC-900: Microsoft Security, Compliance, and Identity Fundamentals
-- SC-400: Microsoft Information Protection Administrator
-
----
-
-## Disclaimer
-
-This repository is a professional portfolio project created for educational and career development purposes. It simulates enterprise cybersecurity governance, data protection, and compliance processes.
+* **Platforms:** Microsoft Purview (DLP, Information Protection, Insider Risk), Forcepoint DLP, Microsoft Entra ID (RBAC)
+* **Frameworks:** ISO/IEC 27001:2022, NIST CSF 2.0
